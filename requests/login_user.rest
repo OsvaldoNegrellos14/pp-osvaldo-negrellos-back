@@ -1,0 +1,8 @@
+# Login by email and password
+POST http://127.0.0.1:3000/api/user/login
+Content-Type: application/json
+
+{
+    "email": "elias@gmail.com.mx",
+    "password": "mansilla"
+}

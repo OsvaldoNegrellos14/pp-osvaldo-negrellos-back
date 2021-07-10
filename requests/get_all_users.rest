@@ -1,0 +1,35 @@
+# Get all users in DB ---------------------
+POST http://127.0.0.1:3000/api/users/read
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZThmYTk4ZGExNzc0NGEyODJlNDI0YyIsImVtYWlsIjoiZWxpYXNAZ21haWwuY29tLm14IiwiaWF0IjoxNjI1ODgyMzc3fQ.arRwsHSHZJ4l9dm_gWHKaoZRdPtJ0KN7J2v1fuPvD2w
+
+
+# get all users by name -------------------
+# POST http://127.0.0.1:3000/api/users/read
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZThmYTk4ZGExNzc0NGEyODJlNDI0YyIsImVtYWlsIjoiZWxpYXNAZ21haWwuY29tLm14IiwiaWF0IjoxNjI1ODgyMzc3fQ.arRwsHSHZJ4l9dm_gWHKaoZRdPtJ0KN7J2v1fuPvD2w
+
+# {
+#     "name": "Juana"
+# }
+
+
+# # get all users by hobby------------------
+# POST http://127.0.0.1:3000/api/users/read
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZThmYTk4ZGExNzc0NGEyODJlNDI0YyIsImVtYWlsIjoiZWxpYXNAZ21haWwuY29tLm14IiwiaWF0IjoxNjI1ODgyMzc3fQ.arRwsHSHZJ4l9dm_gWHKaoZRdPtJ0KN7J2v1fuPvD2w
+
+# {
+#     "hobby": "play guitar"
+# }
+
+
+# get all users by name and hobby----------
+# POST http://127.0.0.1:3000/api/users/read
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZThmYTk4ZGExNzc0NGEyODJlNDI0YyIsImVtYWlsIjoiZWxpYXNAZ21haWwuY29tLm14IiwiaWF0IjoxNjI1ODgyMzc3fQ.arRwsHSHZJ4l9dm_gWHKaoZRdPtJ0KN7J2v1fuPvD2w
+
+# {
+#     "name": "Juana",
+#     "hobby": "play guitar"
+# }
+

@@ -1,0 +1,4 @@
+# Get user data grouped by hobby
+GET http://127.0.0.1:3000/api/users/read/data
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwZThmYTk4ZGExNzc0NGEyODJlNDI0YyIsImVtYWlsIjoiZWxpYXNAZ21haWwuY29tLm14IiwiaWF0IjoxNjI1ODgyMzc3fQ.arRwsHSHZJ4l9dm_gWHKaoZRdPtJ0KN7J2v1fuPvD2w

@@ -1,0 +1,12 @@
+POST http://127.0.0.1:3000/api/user/create
+Content-Type: application/json
+
+{
+    "name": "Manuel",
+    "email": "manuel@gmail.com.mx",
+    "phone": "2489516730",
+    "password": "pavon",
+    "age": 25,
+    "gender": "male",
+    "hobby": "Do it excercise"
+}
