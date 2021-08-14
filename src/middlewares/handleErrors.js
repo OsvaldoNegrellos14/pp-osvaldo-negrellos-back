@@ -4,7 +4,7 @@ const ERROR_HANDLERS = {
     res.status(400).json({ success: false, info: 'id used is malformed' });
   },
   ValidationError: (res, { message }) => {
-    res.tatus(409).json({ succes: false, info: message });
+    res.status(409).json({ succes: false, info: message });
   },
   JsonWebTokenError: (res) => {
     res.status(401).json({ success: false, info: 'Token missing or invalid' });
